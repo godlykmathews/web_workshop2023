@@ -1,161 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Elements Introduction</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            color: #555;
-            line-height: 1.6;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul, ol {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #333;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-
-        input[type="submit"] {
-            background-color: #3498db;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #2980b9;
-        }
-    </style>
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles/page2styles.css">
+  </head>
+  <body>
     <h1>Introduction to HTML Elements</h1>
 
     <!-- Headings -->
     <section>
-        <h2>Headings</h2>
-        <h1>This is an H1 Heading</h1>
-        <h2>This is an H2 Heading</h2>
-        <h3>This is an H3 Heading</h3>
-        <h4>This is an H4 Heading</h4>
-        <h5>This is an H5 Heading</h5>
-        <h6>This is an H6 Heading</h6>
+      <h2>Headings</h2>
+      <h1>This is an H1 Heading</h1>
+      <h2>This is an H2 Heading</h2>
+      <h3>This is an H3 Heading</h3>
+      <h4>This is an H4 Heading</h4>
+      <h5>This is an H5 Heading</h5>
+      <h6>This is an H6 Heading</h6>
     </section>
 
     <!-- Paragraphs -->
     <section>
-        <h2>Paragraphs</h2>
-        <p>This is a simple paragraph. It can contain text, images, and other HTML elements.</p>
+      <h2>Paragraphs</h2>
+      <p>
+        This is a simple paragraph. It can contain text, images, and other HTML
+        elements.
+      </p>
     </section>
 
     <!-- Links -->
     <section>
-        <h2>Links</h2>
-        <p>Visit <a href="http://cmdschools.org/metropolitan.html" target="_blank">Metropolitan School Website</a> for more information.</p>
+      <h2>Links</h2>
+      <p>
+        Visit
+        <a href="http://cmdschools.org/metropolitan.html" target="_blank"
+          >Metropolitan School Website</a
+        >
+        for more information.
+      </p>
     </section>
 
     <!-- Lists -->
     <section>
-        <h2>Lists</h2>
-        <ul>
-            <li>Unordered List Item 1</li>
-            <li>Unordered List Item 2</li>
-            <li>Unordered List Item 3</li>
-        </ul>
-        <ol>
-            <li>Ordered List Item 1</li>
-            <li>Ordered List Item 2</li>
-            <li>Ordered List Item 3</li>
-        </ol>
+      <h2>Lists</h2>
+      <ul>
+        <li>Unordered List Item 1</li>
+        <li>Unordered List Item 2</li>
+        <li>Unordered List Item 3</li>
+      </ul>
+      <ol>
+        <li>Ordered List Item 1</li>
+        <li>Ordered List Item 2</li>
+        <li>Ordered List Item 3</li>
+      </ol>
     </section>
 
     <!-- Images -->
     <section>
-        <h2>Images</h2>
-        <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRZcmlaOZxV_nbS5cWjzzCB1i3PnTRqawOv0-EzUWZ15gTTCyaua_Ngv5hutODmYy7y" alt="Cute Kitten">
+      <h2>Images</h2>
+      <img
+        src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRZcmlaOZxV_nbS5cWjzzCB1i3PnTRqawOv0-EzUWZ15gTTCyaua_Ngv5hutODmYy7y"
+        alt="Cute Kitten"
+      />
     </section>
 
     <!-- Forms -->
     <section>
-        <h2>Forms</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name">
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
     </section>
-
-</body>
+  </body>
 </html>
